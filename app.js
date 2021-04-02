@@ -35,7 +35,7 @@ app.post("/", function(req, res) {
     const url = 'https://us7.api.mailchimp.com/3.0/lists/93beba9633';
     const options = {
         method: 'POST',
-        auth: "abhi:30a80ac2bd25e0fb3bd07e6053fcd713-us7"
+        auth: "abhi:xxxxxxx"
     };
 
     const request = https.request(url, options, function(response) {
@@ -65,7 +65,7 @@ app.listen(port || 3000, function() {
 });
 
 // API Key
-// 30a80ac2bd25e0fb3bd07e6053fcd713-us7
+// xxxxxxx
 
 // List ID
-// 93beba9633
+// xxxxxxx
